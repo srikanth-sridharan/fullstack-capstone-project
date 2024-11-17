@@ -1,0 +1,89 @@
+/* Login Card Styles */
+.login-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem; /* Add a slight border radius to the card */
+    padding: 2rem; /* Add some padding for better spacing */
+}
+
+.login-card.form-label {
+    font-weight: 600;
+    color: #333; /* Darken the label color for better readability */
+    margin-bottom: 0.5rem; /* Add some margin for spacing */
+}
+
+.login-card input {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da; /* Add a light border to inputs */
+    padding: 0.5rem; /* Add some padding for better usability */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-card input:focus {
+    border-color: #80bdff; /* Change border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add a focus shadow */
+}
+
+.login-card.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 600; /* Make button text bold */
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.login-card.btn-primary {
+    background-color: #0056b3;
+    border: none;
+    color: #fff; /* White text for better contrast */
+}
+
+.login-card.btn-primary:hover {
+    background-color: #004682; /* Darken the background on hover */
+}
+
+.login-card.btn-secondary {
+    background-color: #dc3545;
+    border: none;
+    color: #fff; /* White text for better contrast */
+}
+
+.login-card.btn-secondary:hover {
+    background-color: #c82333; /* Darken the background on hover */
+}
+
+.login-card.text-primary {
+    color: #0056b3;
+}
+
+.login-card.text-primary:hover {
+    text-decoration: underline;
+}
+
+.login-card.text-secondary {
+    color: #6c757d;
+}
+
+.login-card.text-secondary:hover {
+    text-decoration: underline;
+}
+
+/* Additional Styles */
+a.text-primary {
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+a.text-primary:hover {
+    color: #003d7d; /* Darken the text on hover */
+    text-decoration: underline;
+}
+
+a.text-secondary {
+    text-decoration: none;
+    transition: color 0.15s ease-in-out;
+}
+
+a.text-secondary:hover {
+    color: #545b62; /* Darken the text on hover */
+    text-decoration: underline;
+}
