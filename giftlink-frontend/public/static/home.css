@@ -21,7 +21,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #f4f4f4, #f0dddd);
+    background: url('/static/background-colors.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     filter: blur(10px);
@@ -43,6 +43,10 @@ body::before {
 /* Task 4: Add styles for headings, paragraphs, and buttons */
 h1, h2, .lead, .btn-primary {
     /* insert code here */
+    font-size: 4rem; /* Large font size for main heading */
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 0.5em;
+    font-weight: 700;
 }
 
 h1, h2 {
